@@ -1,6 +1,7 @@
 body{
     font-size: 20px;
     background-color: #ccc;
+    margin: 0;
 }
 .nav{
     display: flex;
@@ -28,6 +29,7 @@ body{
     height: 300px;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .main{
     margin: 0px auto ;
