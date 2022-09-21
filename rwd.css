@@ -29,7 +29,6 @@ body{
     height: 300px;
     align-items: center;
     justify-content: center;
-    width: 100%;
 }
 .main{
     margin: 0px auto ;
@@ -40,7 +39,7 @@ body{
     /* border: 1pt solid red; */
 }
 .promotion{
-    background-color: rgb(251, 255, 7);
+    background-color: rgb(251, 255, 5);
     margin-top: 40px;
     display: flex;
     align-items: center;
