@@ -6,13 +6,14 @@
         <title>每周任務I</title>
         <link rel="stylesheet" type="text/css" href="rwd.css">
     </head>
-    <body>
+    <body >
+        
         <div class="nav">
             <div class="left">
                 <b>My Website</b>
             </div>
             <div class="right">
-                <div class="ham">
+                <div class="ham" onclick="openlist()">
                     <img src="ham.png" >
                 </div>
                 <div class="item">Item 1</div>
@@ -21,8 +22,16 @@
                 <div class="item">Item 4</div>
 
             </div>
+            <dvi id="close" onclick="closelist()"></dvi>    
+            <div id="list" >
+                <p>Item 1</p>
+                <p>Item 2</p>
+                <p>Item 3</p>
+                <p>Item 4</p>
+
+            </div>
         </div>
-        <div class="header">
+        <div class="header" >
             <b>Welcome to MyHome</b>
         </div>
         <div class="main">
@@ -70,6 +79,20 @@
                 </div>
 
         </div>
+        
     </body>
     <footer></footer>
+    <script>
+        function openlist(){
+            document.getElementById("list").style.display="block";
+            document.getElementById("close").style.display="block";
+
+        }
+        
+        function closelist(){
+            document.getElementById("list").style.display="none";
+            document.getElementById("close").style.display="none";
+
+        }
+    </script>
 </html>
